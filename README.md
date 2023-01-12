@@ -3,12 +3,12 @@ Este exercício é escrito em C, será testado com o make e um script bash.
 
 ### O Exercício
 Escreva um programa em C (Aaprender2.c) para imprimir no terminal o texto 
-“Olá Mundo!
+“Olá Mundo!  
 Estou a aprender C.”. 
 
 ### Saída Esperada:
    
-Olá Mundo!\n
+Olá Mundo!  
 Estou a aprender C.
 
 
