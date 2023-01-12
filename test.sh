@@ -11,7 +11,8 @@ output_line_2=$(echo "$program_output" | head -n 2 | tail -n 1)
 if [ "$output_line_1" == "$expected_output_1" ] && [ "$output_line_2" == "$expected_output_2" ] ] ; then
   echo "Aprovado: A saída é correcta"
 else
-  echo "Esperada a saída '$expected_output' mas o programa devolveu: $output"
+  echo "Esperada a saída '$expected_output_1' mas o programa devolveu: $output_line_1"
+  echo "Esperada a saída '$expected_output_2' mas o programa devolveu: $output_line_2"
   exit 1
 fi
 
