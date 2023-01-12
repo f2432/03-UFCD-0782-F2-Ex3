@@ -1,11 +1,14 @@
-# 03 - UFCD-0782 - F1 - Ex1
+# 03 - UFCD-0782 - F1 - Ex3
 Este exercício é escrito em C, será testado com o make e um script bash.
 
 ### O Exercício
-Escreva um programa em C (Aaprender.c) para imprimir no terminal o texto “Estou a aprender C.”. 
+Escreva um programa em C (Aaprender2.c) para imprimir no terminal o texto 
+“Olá Mundo!
+Estou a aprender C.”. 
 
 ### Saída Esperada:
    
+Olá Mundo!
 Estou a aprender C.
 
 
