@@ -5,14 +5,10 @@ output=$(./a.out)
 expected_output_1="Ola Mundo!"
 expected_output_2="Estou a aprender C."
 
-if [ $? -eq 0 ] ; then
-  echo "Aprovado: o programa terminou com retorno zero"
-else
-  echo "Falha: o programa não retornou zero"
-  exit 1
-fi
+output_line_1=$(echo "$program_output" | head -n 1)
+output_line_2=$(echo "$program_output" | head -n 2 | tail -n 1)
 
-if [ "$output" == "$expected_output" ] ; then
+if [ "$output_line_1" == "$expected_output_1" ] && [ "$output_line_2" == "$expected_output_2" ] ] ; then
   echo "Aprovado: A saída é correcta"
 else
   echo "Esperada a saída '$expected_output' mas o programa devolveu: $output"
